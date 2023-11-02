@@ -13,6 +13,4 @@ def get_wrapped_slice(arr, x_start, x_end, y_start, y_end):
       vertical_slices = np.split(arr, [y_start], axis=0)
       return np.vstack((vertical_slices[-1], vertical_slices[0]))[:, x_start:] if y_start > y_end else np.vstack((vertical_slices[0], vertical_slices[1]))[:, x_start:]
   
-def calculate_path_for_entity():
-    pass
     

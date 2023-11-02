@@ -2,7 +2,6 @@ import pygame
 import random
 import multiprocessing
 from utils.entities.entity_spawner import EntitySpawner
-from utils.functions.functions import calculate_path_for_entity
 
 class GameLoop:
     def __init__(self, screen, config, input_handler, world_surface_handler, camera_handler, weather_handler, cloud_manager, cloud_map, world_data):
